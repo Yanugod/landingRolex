@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Plus+Jakarta+Sans&display=swap");
+:root {
+  --primaryFont: "Koulen", cursive;
+  --secondaryFont: "Plus Jakarta Sans", sans-serif;
+}
+*,::before,::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: var(--primaryFont);
+}
+
+/*=== ESTILOS PARA TABLET ===*/
+@media screen and (max-width: 768px) {
+  /*=== HEADER TABLET ===*/
+
+}
+
+/*=== ESTILOS PARA MOBILE ===*/
+@media screen and (max-width: 425px) {
+
+  /*=== MENU NAV PARA MOBILE ===*/
+
+  header{
+    display: flex;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0%;
+    left: 0;
+  }
+  
+  header figure {
+    width: 90%;
+  }
+  header figure img {
+    width: 55%;
+  }
+
+  .hero__menu{
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu__toggle i{
+    color: white;
+    background-color: #01673b;;
+    border-radius: 0.5rem;
+    height: 15px;
+    font-size: 30px;
+    padding: 0 5px;
+    margin-right: 15px;
+  }
+
+  .hero__menu ul{
+    font-family: var(--secondaryFont);
+    background-color: #01673b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    line-height: 50px;
+    position: absolute;
+    font-weight: 600;
+    text-transform: uppercase;
+    top: -1000%;
+    left:0%;
+    transition: 0.4s ease-out all;
+  }
+  
+  .show{
+    transform: translateY(1000px);
+  }
+
+  .menu__close{
+    color: white;
+    padding: 0 10px;
+    border-radius: 0.5rem;
+    font-weight: 900;
+    font-size: 30px;
+    position: absolute;
+    top: 180px;
+    left: 45%;
+  }
+
+  .hero__menu ul li{
+    list-style-type: none;
+    margin: 20px;
+    position: relative;
+  }
+
+  .hero__menu ul li a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+  }
+
+  .hero__menu ul li a i{
+    font-size: 20px;
+    color: white;
+  }
+  
+  .hero__menu ul li a:hover:after{
+    content: "";
+    height: 3px;
+    width: 150px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    bottom: -7px;
+  }
+  
+  .hero__menu ul li a>.hero__icon--active{
+    color: white;
+    margin-right: 10px;
+  }
+
+  .hero__icon--cart{
+    background-color:#a37e21;
+    border-radius: 0.5rem;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+  }
+}
