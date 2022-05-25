@@ -150,6 +150,7 @@ body{
     width: 90%;
     min-height: 300px;
     margin: 0 auto;
+
   }
 
   .hero__texts{
@@ -211,7 +212,6 @@ body{
     position: relative;
     top: 40px;
     max-width: 500px;
-
   }
 
   .img__models ul{
@@ -227,4 +227,138 @@ body{
   .img__models ul li img{
     width: 80px;
   }
+
+  .line{
+    background-color: #01673b;
+    height: 5px;
+    width: 50%;
+    position: relative;
+    top: 220px;
+    left: 25%;
+    border-radius: 10px;
+  }
+
+   /*=== PRODUCTOS ===*/
+  .hero__products{
+    font-family: var(--secondaryFont);
+    position: relative;
+    top: 258px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    min-height: 400px;
+    margin: 0 auto;
+  }
+
+  .hero__products--news{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .hero__products--news h2{
+    color: white;
+    font-size: 2.2em;
+    background-color: #a37e21;
+    clip-path: polygon(0 0, 93% 0, 100% 100%, 0% 100%);
+    text-transform: uppercase;
+    padding: 0 20px;
+    margin-bottom: 23px;
+  }
+
+  .hero__products--news p{
+    font-size: 15px;
+    text-align: justify;
+    font-weight: 500;
+    margin-bottom: 2em;
+  }
+
+  .hero__products--card{
+    width: 150px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: #01673b;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  .hero__products--card:hover{
+    width: 380px;
+  }
+
+  .hero__products--img{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero__products--img img{
+    position: relative;
+    left: -5px;
+    width: 150px;
+  }
+
+  .hero__products--texts{
+    display: none;
+  }
+
+  .hero__products--card:hover   .hero__products--texts{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    animation: traerTexto 0.6s ease 1;
+  }
+
+  @keyframes traerTexto {
+    0%{
+      transform: translateY(-100%);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
+
+  .hero__products--texts h2{
+    font-size: .9em;
+    color: white;
+  }
+
+  .hero__products--texts h2 span{
+    color: wheat;
+  }
+
+  .hero__products--texts p{
+    font-size: .8em;
+    text-align: center;
+    color: white;
+  }
+
+  .hero__products--texts--price{
+    font-size: var(--primaryFont);
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+  }
+
+  .hero__products--texts button{
+    font-family: var(--primaryFont);
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 13px;
+    outline: none;
+    padding: 5px 20px;
+    background-color: #a37e21;
+    box-shadow: 0 0 10px #443613 inset,
+    0 0 10px #8b7335 inset
+    ;
+  }
+
+
 }
