@@ -13,7 +13,7 @@
                     <a href="index.php" class="hero__link active-link"><i class="bi bi-house-door-fill hero__icon--active"></i><span>Home</span></a>
                 </li>
                 <li>
-                    <a href="" class="hero__link"><i class="bi bi-bag-fill hero__icon--active"></i>Products</a></li>
+                    <a href="#hero__products" class="hero__link"><i class="bi bi-bag-fill hero__icon--active"></i>Products</a></li>
                 <li>
                     <a href="" class="hero__link"><i class="bi bi-telephone-fill hero__icon--active"></i>Contact</a>
                 </li>
