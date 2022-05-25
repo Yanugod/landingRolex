@@ -39,8 +39,9 @@
         </section>
     </main>
 
+    <div class="line"></div>
     <!-- PRODUCTOS -->
-<!-- 
+
     <section class="hero__products" id="hero__products">
 
         <section class="hero__products--news">
@@ -53,12 +54,27 @@
                 <img src="assets/img/imgReloj.png" alt="">
             </div>
             <div class="hero__products--texts">
-                <h2>Rolex <span>Luxury</span> Oyster <span>Gold</span> </h2>
+                <h2>Rolex Luxury Oyster <span>Gold</span> </h2>
                 <p>Waxed in the best machines, fully polished in stainless steel and cast in natural solid 18k gold
                     nuggets.</p>
-                <p class="hero__products--texts--price">23,999 USD</p>
-                <button href="">Buy Now</button>
+                <span class="hero__products--texts--price">23,999.00 USD</span>
+                <button>Buy Now</button>
             </div>
+        </div>
+        </div>
+
+        <div class="hero__products--card">
+            <div class="hero__products--img">
+                <img src="assets/img/imgReloj2.png" alt="">
+            </div>
+            <div class="hero__products--texts">
+            <h2>Rolex <span>Mistery</span> Maxwell <span>Black</span> </h2>
+                <p>Waxed in the best machines, fully polished in stainless steel and cast in natural solid 18k gold
+                    nuggets.</p>
+                <span class="hero__products--texts--price">19, 699.00 USD</span>
+                <button>Buy Now</button>
+            </div>
+        </div>
         </div>
 
         <div class="hero__products--card">
@@ -66,31 +82,15 @@
                 <img src="assets/img/imgReloj3.png" alt="">
             </div>
             <div class="hero__products--texts">
-                <h2>Rolex <span>Luxury</span> Quartz <span>White</span> </h2>
+                <h2>Rolex <span>Cristal</span> Quartz <span>White</span></h2>
                 <p>Waxed in the best machines, fully polished in stainless steel and cast in natural solid 18k gold
                     nuggets.</p>
-                <p class="hero__products--texts--price">23,999 USD</p>
-                <button href="">Buy Now</button>
+                <span class="hero__products--texts--price">25,499.00 USD</span>
+                <button>Buy Now</button>
             </div>
         </div>
-        
-
-        <div class="hero__products--card">
-            <div class="hero__products--img">
-                <img src="assets/img/imgReloj2.png" alt="">
-            </div>
-            <div class="hero__products--texts">
-                <h2>Rolex <span>Luxury</span> Mistery <span>Black</span> </h2>
-                <p>Waxed in the best machines, fully polished in stainless steel and cast in natural solid 18k gold
-                    nuggets.</p>
-                <p class="hero__products--texts--price">23,999 USD</p>
-                <button href="">Buy Now</button>
-            </div>
         </div>
-
-
-        </div>
-    </section> -->
+    </section>
 
 
 
