@@ -1,6 +1,6 @@
 <header>
         <figure>
-           <img src="assets/img/logoRolex.png" alt="logoRolex">
+           <img src="assets/img/rolexLogo.png" alt="logoRolex">
         </figure>
 
         <!--NAVBAR-->
@@ -15,7 +15,7 @@
                 <li>
                     <a href="#hero__products" class="hero__link"><i class="bi bi-bag-fill hero__icon--active"></i>Products</a></li>
                 <li>
-                    <a href="" class="hero__link"><i class="bi bi-telephone-fill hero__icon--active"></i>Contact</a>
+                    <a href="#hero__contact" class="hero__link"><i class="bi bi-telephone-fill hero__icon--active"></i>Contact</a>
                 </li>
                 <li>
                     <button class="hero__icon--cart"><i class="bi bi-cart-fill"></i></button>
