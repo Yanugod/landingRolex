@@ -18,11 +18,11 @@
     <?php include 'assets/vistas/header.php' ?>
 
     <!-- CONTENIDO -->
-    <!-- <main class="hero__content" id="hero__content">
+    <main class="hero__content" id="hero__content">
         <section class="hero__texts">
             <h2>Some new models have arrived</h2>
             <p>Three new models have come to our acquisitions. Our engineers created these products entirely in metal
-                stylized in diamond quartz. <br> <span> Take advantage of the new offers</span></p>
+                stylized in diamond quartz.<br><br>  <span> Take advantage of the new offers</span></p>
             <button>Read More</button>
         </section>
 
@@ -37,9 +37,7 @@
                         onclick="cambiarImg(2);"></li>
             </ul>
         </section>
-
-        <div class="circle"></div>
-    </main> -->
+    </main>
 
     <!-- PRODUCTOS -->
 <!-- 
