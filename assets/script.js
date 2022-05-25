@@ -34,19 +34,19 @@ cerrarMenu('menu__close','hero__links');
 
 
 
-// function cambiarImg (data){
-//     const imgPrincipal = document.querySelector('.img__reloj');
-//     const imgModels = document.querySelectorAll('.imgModels');
-//     if (data) {
-//         let tempImg = imgPrincipal.src
-//         imgPrincipal.src = imgModels[0].src
-//         imgModels[0].src = tempImg
+function cambiarImg (data){
+    const imgPrincipal = document.querySelector('.img__reloj');
+    const imgModels = document.querySelectorAll('.imgModels');
+    if (data) {
+        let tempImg = imgPrincipal.src
+        imgPrincipal.src = imgModels[0].src
+        imgModels[0].src = tempImg
 
-//     }
+    }
     
-//     if (data == 2) {
-//         let tempImg = imgPrincipal.src
-//         imgPrincipal.src = imgModels[1].src
-//         imgModels[1].src = tempImg
-//     }
-//     }
+    if (data == 2) {
+        let tempImg = imgPrincipal.src
+        imgPrincipal.src = imgModels[1].src
+        imgModels[1].src = tempImg
+    }
+    }
